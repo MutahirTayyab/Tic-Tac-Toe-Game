@@ -6,8 +6,10 @@
 body{
     /* background-color: #548687; */
     background-image: url("background-image.jpg");
+    min-height: 100vh;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     text-align: center;
 }
 
