@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: #548687; */
+    background-image: url("background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+/* Entire Container/Box for Game */
+#container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(255, 247, 243, 0.9);
+    font-size: 8vmin;
+    background-color: white;
+    color: black;
+}
+
+/* Reset Game Button */
+#reset-btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 900;
+    background-color: #191913;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+
+#reset-btn:hover{
+    padding: 9px 19px;
+    background-color: white;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+
+/* Message & New Game Button Container/Box */
+.msg-container{
+    height: 30vmin;
+}
+
+.hide{
+    display: none;
+}
+
+/* New Game Button */
+#new-btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 900;
+    background-color: #191913;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 20px;
+}
+
+#new-btn:hover{
+    padding: 9px 19px;
+    background-color: white;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+
+/* Message for Win/Lose */
+#msg{
+    color: white;
+    font-size: 5vmin;
+    margin-top: 20px;
+}
